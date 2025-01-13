@@ -8,14 +8,14 @@
 }
 .container{
     width: 1280px;
-    /* height: 560px; */
-    margin: 0 auto;
+    height: 440px;
+    margin: 80px auto;
 }
 .banner{
     /* margin: 80px 160px; */
     background-color: #C6E4D6;
     /* padding: 80px 160px; */
-    padding: 80px 20px;
+    padding: 80px 60px;
     border-radius: 24px;
     margin-top: 60px;
 }
@@ -25,7 +25,7 @@
 }
 .img-1{
     height: 400px;
-    padding: 80px 60px;
+    padding: 40px 60px;
 }
 .banner-title{
     /* padding: 117px 60px; */
@@ -130,4 +130,97 @@
 }
 .light{
     background-color: rgba(255, 194, 57, 1);
+}
+.satellite{
+    width: 1280px;
+    height: 1004px;
+    
+}
+.satellite-container{
+    background-color: #ffffff;
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+    border-radius: 24px;
+}
+.satellite h1{
+    color: rgba(14, 14, 14, 0.8);
+    width: 744px;
+    height: 38px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E; 
+}
+.satellite-container button{
+    background-color: #006A50;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 600px;
+}
+.satellite-container h2{
+    color: rgba(14, 14, 14, 0.8);
+}
+.satellite-container p, span{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate{
+    width: 1280px;
+    height: 464px;
+    /* margin: 40px 40px; */
+    text-align: center;
+}
+.donate-container{
+    /* width: 1070px;
+    height: 128px; */
+    /* width: 264px;
+    height: 128px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    /* text-align: center; */
+}    
+.donate-container .one, .two, .five, .thousand{
+    /* width: 264px;
+    height: 128px; */
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+}
+.two{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donate h1{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate input{
+    width: 1030px;
+    height: 64px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    /* margin: 30px 0px; */
+}
+.donate button{
+    width: 150px;
+    height: 50px;
+    /* margin: 32px 0; */
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    background-color: rgba(0, 106, 80, 1);
+    margin-bottom: 80px;
 }
