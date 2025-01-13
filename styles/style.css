@@ -51,6 +51,7 @@
     border: none;
     font-size: 18px;
     font-weight: 700px;
+    cursor: pointer;
 }
 /* .vision{
     /* width: 1280px;
@@ -121,6 +122,7 @@
     height: 41px; */
     border: none;
     color: #ffffff;
+    cursor: pointer;
 }
 .blue{
     background-color: rgba(84, 144, 245, 1);
@@ -161,6 +163,7 @@
     margin: 30px 0;
     font-size: 18px;
     font-weight: 600px;
+    cursor: pointer;
 }
 .satellite-container h2{
     color: rgba(14, 14, 14, 0.8);
@@ -194,6 +197,7 @@
     padding: 40px;
     color: rgba(14, 14, 14, 0.8);
     border-radius: 16px;
+    cursor: pointer;    
 }
 .two{
     background-color: rgba(198, 228, 214, 1);
@@ -223,4 +227,67 @@
     color: #ffffff;
     background-color: rgba(0, 106, 80, 1);
     margin-bottom: 80px;
+    cursor: pointer;
+}
+.newsletter{
+    width: 1280px;
+    height: 395px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 60px 0;
+}
+.newsletter-container{
+    width: 750px;
+    height: 235px;
+    text-align: center;
+    padding: 80px 265px;
+}
+.newsletter h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
+}
+.newsletter p{
+    /* width: 622px; */
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.plus input{
+    width: 600px;
+    height: 55px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    /* padding: 18px 40px; */
+    font-size: 16px;
+    font-weight: 40px;
+}
+.plus button{
+    width: 150px;
+    height: 56px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.plus{
+    display: flex;
+}
+.donate-container:hover{
+    color: red;
+}
+input::placeholder{
+    padding: 18px 40px;
+}
+.one:hover, .two:hover, .five:hover, .thousand:hover, .donate button:hover{
+    background-color: darkred;
+    color: yellow;
+    box-shadow: 10px 10px;
+    border-radius: 20px;
 }
